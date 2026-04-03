@@ -11,79 +11,43 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <style>
+        
         body {
             font-family: Arial, sans-serif;
             background: #f4f4f4;
             color: #333;
             margin: 0;
-            padding: 0;
-        }
+            padding: 0;}
 
-        .results-card, 
-        .analysis-card, 
-        .alignment-card, 
-        .motif-card, 
-        .extra-card, 
-        .revisit-card {
+        .example-card,.analysis-card {
             max-width: 1100px;
             margin: 20px auto;
             border-radius: 28px;
             box-shadow: 0 15px 35px rgba(0,0,0,0.08);
             overflow: hidden;
-        }
-
-        .card-header-custom {
-            background: linear-gradient(90deg, #0f3460, #1e5799);
-            color: white;
-            padding: 22px 30px;
-        }
+            border: 3px solid #1f2a44;
+            background-color: white;}
 
         .card-body {
-            padding: 36px 40px !important;
-        }
+            padding: 36px 40px;}
 
         table, .table {
-            width: 100% !important;
             border-collapse: collapse !important;
-            margin-top: 20px !important;
-        }
+            margin-top: 20px !important;}
+            
         th, td {
-            border: 1px solid #ccc !important;
-            padding: 12px 15px !important;
-            text-align: left !important;
-            vertical-align: middle !important;
-        }
+            border: 1px solid;
+            padding: 12px 15px ;
+            text-align: ;
+            vertical-align: middle ;}
+            
         th {
-            background: #0f3460 !important;
-            color: white !important;
-            font-weight: bold !important;
+            background: #0f3460;
+            color: white;
+            font-weight: bold;
         }
         .table-hover tbody tr:hover {
-            background-color: #f1f3f8 !important;
-        }
-
-        .seq-pill {
-            display: inline-block;
-            padding: 6px 14px;
-            background: #f8f9fa;
-            color: #0f3460;
-            font-weight: bold;
-            border-radius: 50px;
-            font-size: 0.95rem;
-        }
-
-        .btn-action {
-            padding: 12px 24px;
-            font-size: 1.05rem;
-        }
-        .btn-back {
-            color: white;
-            border-color: white;
-            font-weight: bold;
-        }
-        .btn-back:hover {
-            background-color: white;
-            color: #0f3460;
+            background-color: #f1f3f8 ;
         }
 
         .plot-container, 
@@ -93,7 +57,7 @@
             padding: 20px;
             border: 1px solid #dee2e6;
         }
-    </style>
+    </body>
 </head>
 
 <body>
