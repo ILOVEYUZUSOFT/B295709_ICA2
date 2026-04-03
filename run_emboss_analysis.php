@@ -65,8 +65,8 @@ exec("scripts/aac_plot.py " . escapeshellarg($fasta_path) . " " . escapeshellarg
                  alt="Amino Acid Composition Plot">
         </p>
 
-        <h3>pepstats Report (Physicochemical Properties)</h3>
-        <pre style="background: #f8f8f8; padding:15px; overflow:auto; font-family:monospace; border:1px solid #ccc;">
+        <h3>Pepstats Report</h3>
+        <pre style="background: #f8f8f8; padding:15px; overflow:auto; font-family:monospace; border:1px solid #ccc;max-height:500px;">
 <?= htmlspecialchars($content) ?>
         </pre>
 
